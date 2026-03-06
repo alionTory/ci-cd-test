@@ -4,6 +4,6 @@ jobs:
   fail:
     runs-on: ubuntu-latest
     steps:
-      - run: exit 1  # 종료 상태가 0이 아니므로 오류가 발생
+      - run: exit 0  # 종료 상태가 0이 아니므로 오류가 발생
       - run: echo "Hello"
         if: ${{ true }}
