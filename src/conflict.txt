@@ -1,1 +1,2 @@
 conflict main + feature
+conflict2 main
